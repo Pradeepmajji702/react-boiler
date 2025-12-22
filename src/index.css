@@ -1,0 +1,61 @@
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
+
+
+
+:root {
+  /* ======== Brand Colors ======== */
+  --p-primary-color: #3b82f6;         /* Main brand (Blue) */
+  --p-primary-color-hover: #2563eb;
+  --p-primary-color-active: #1d4ed8;
+  --p-primary-color-text: #ffffff;
+
+  --p-secondary-color: #64748b;       /* Neutral secondary */
+  --p-secondary-color-hover: #475569;
+  --p-secondary-color-text: #ffffff;
+
+  /* ======== Semantic Colors ======== */
+  --p-success-color: #22c55e;
+  --p-success-color-hover: #16a34a;
+  --p-success-color-text: #ffffff;
+
+  --p-warning-color: #eab308;
+  --p-warning-color-hover: #ca8a04;
+  --p-warning-color-text: #000000;
+
+  --p-danger-color: #ef4444;
+  --p-danger-color-hover: #dc2626;
+  --p-danger-color-text: #ffffff;
+
+  --p-info-color: #0ea5e9;
+  --p-info-color-hover: #0284c7;
+  --p-info-color-text: #ffffff;
+
+  /* ======== Background & Surface ======== */
+  --p-background-color: #f9fafb;       /* Page background */
+  --p-surface-color: #ffffff;          /* Card / Panel background */
+  --p-surface-border: #e5e7eb;         /* Divider / Border color */
+
+  /* ======== Text Colors ======== */
+  --p-text-color: #111827;             /* Primary text */
+  --p-text-secondary-color: #6b7280;   /* Muted text */
+  --p-text-inverse-color: #ffffff;     /* On dark surfaces */
+
+  /* ======== States ======== */
+  --p-focus-ring-color: rgba(59, 130, 246, 0.5);
+  --p-disabled-bg: #f3f4f6;
+  --p-disabled-text: #9ca3af;
+
+  /* ======== Shadows ======== */
+  --p-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --p-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --p-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.p-button {
+  background-color: var(--p-primary-color) !important;
+  border-color: var(--p-primary-color) !important;
+}
+
